@@ -2,8 +2,8 @@
 //指定uid/名字模糊查询json
 // 连接数据库
 $servernames = 'mysql:host=localhost;dbname=rank_ddata';
-$username = 'rank_ddata';
-$password = 'Pj5hhsH6jxWkRjfN';
+$username = '';
+$password = '';
 $pdo = new PDO($servernames, $username, $password);
 $pdo->query('SET NAMES utf8');
 
@@ -106,3 +106,4 @@ if ($num_results == 0) {
     // multiple results
     echo json_encode($results, JSON_UNESCAPED_UNICODE);
 }
+
