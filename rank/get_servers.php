@@ -1,7 +1,7 @@
 <?php
 $servernames = 'mysql:host=localhost;dbname=rank_ddata';
 $username = 'rank_ddata';
-$password = 'Pj5hhsH6jxWkRjfN';
+$password = '';
 
 try {
     $pdo = new PDO($servernames, $username, $password);
@@ -39,3 +39,4 @@ $pdo = null;
 // 返回服务器列表
 echo json_encode($servers);
 ?>
+
