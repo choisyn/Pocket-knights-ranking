@@ -41,8 +41,8 @@
     }
     //========
     $servernames = 'mysql:host=localhost;dbname=rank_ddata';
-    $username = 'rank_ddata';
-    $password = 'Pj5hhsH6jxWkRjfN';
+    $username = '';
+    $password = '';
     $pdo = new PDO($servernames,$username,$password);
     $pdo->query('SET NAMES utf8');
     //echo time();
@@ -116,4 +116,5 @@
         }
     }
     echo "\n——操作时间戳:".date('y-m-d H:i:s',time());
+
     // echo $name;
