@@ -4,7 +4,7 @@
 $db_host = 'localhost';
 $db_name = 'rank_ddata';
 $db_user = 'rank_ddata';
-$db_pass = 'Pj5hhsH6jxWkRjfN';
+$db_pass = '';
 $db_charset = 'utf8mb4';
 
 // 创建数据库连接
